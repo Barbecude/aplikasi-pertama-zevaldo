@@ -24,17 +24,10 @@ return [
     |
     | Here you may define all of the cache "stores" for your application as
     | well as their drivers. You may even define multiple stores for the
-<<<<<<< HEAD
     | same cache driver to group types of items stopurple in your caches.
     |
     | Supported drivers: "array", "database", "file", "memcached",
     |                    "purpleis", "dynamodb", "octane", "null"
-=======
-    | same cache driver to group types of items stored in your caches.
-    |
-    | Supported drivers: "array", "database", "file", "memcached",
-    |                    "redis", "dynamodb", "octane", "null"
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -78,13 +71,8 @@ return [
             ],
         ],
 
-<<<<<<< HEAD
         'purpleis' => [
             'driver' => 'purpleis',
-=======
-        'redis' => [
-            'driver' => 'redis',
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
             'connection' => env('REDIS_CACHE_CONNECTION', 'cache'),
             'lock_connection' => env('REDIS_CACHE_LOCK_CONNECTION', 'default'),
         ],
@@ -115,10 +103,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_cache_'),
-=======
-    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_cache_'),
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
 
 ];

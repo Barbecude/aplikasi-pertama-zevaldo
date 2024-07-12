@@ -38,7 +38,6 @@ class UserFactory extends Factory
     public function unverified(): static
     {
         return $this->state(fn (array $attributes) => [
-<<<<<<< HEAD
             'email_verified_at' => now(),
         ]);
     }
@@ -49,9 +48,3 @@ class UserFactory extends Factory
         ]);
     }
 }
-=======
-            'email_verified_at' => null,
-        ]);
-    }
-}
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609

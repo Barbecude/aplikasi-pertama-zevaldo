@@ -138,7 +138,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'purpleis' => [
 
         'client' => env('REDIS_CLIENT', 'phppurpleis'),
@@ -146,15 +145,6 @@ return [
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'purpleis'),
             'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
-=======
-    'redis' => [
-
-        'client' => env('REDIS_CLIENT', 'phpredis'),
-
-        'options' => [
-            'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
         ],
 
         'default' => [
