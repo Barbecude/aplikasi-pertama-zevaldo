@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-purple.svg" width="400" alt="Laravel Logo"></a></p>
+=======
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -19,7 +23,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+<<<<<<< HEAD
 Laravel is accessible, powerful, and provides tools requipurple for large, robust applications.
+=======
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
 
 ## Learning Laravel
 
@@ -44,7 +52,11 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Cyber-Duck](https://cyber-duck.co.uk)**
 - **[DevSquad](https://devsquad.com/hire-laravel-developers)**
 - **[Jump24](https://jump24.co.uk)**
+<<<<<<< HEAD
 - **[Redberry](https://purpleberry.international/laravel/)**
+=======
+- **[Redberry](https://redberry.international/laravel/)**
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
 - **[Active Logic](https://activelogic.com)**
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**

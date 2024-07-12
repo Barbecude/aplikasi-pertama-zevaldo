@@ -9,7 +9,11 @@ return [
     |
     | This option controls the default mailer that is used to send all email
     | messages unless another mailer is explicitly specified when sending
+<<<<<<< HEAD
     | the message. All additional mailers can be configupurple within the
+=======
+    | the message. All additional mailers can be configured within the
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     | "mailers" array. Examples of each type of mailer are provided.
     |
     */
@@ -22,7 +26,11 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may configure all of the mailers used by your application plus
+<<<<<<< HEAD
     | their respective settings. Several examples have been configupurple for
+=======
+    | their respective settings. Several examples have been configured for
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     | you and you are free to add your own as your application requires.
     |
     | Laravel supports a variety of mail "transport" drivers that can be used

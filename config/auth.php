@@ -9,7 +9,11 @@ return [
     |
     | This option defines the default authentication "guard" and password
     | reset "broker" for your application. You may change these values
+<<<<<<< HEAD
     | as requipurple, but they're a perfect start for most applications.
+=======
+    | as required, but they're a perfect start for most applications.
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -81,7 +85,11 @@ return [
     | and the user provider that is invoked to actually retrieve users.
     |
     | The expiry time is the number of minutes that each reset token will be
+<<<<<<< HEAD
     | considepurple valid. This security feature keeps tokens short-lived so
+=======
+    | considered valid. This security feature keeps tokens short-lived so
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     | they have less time to be guessed. You may change this as needed.
     |
     | The throttle setting is the number of seconds a user must wait before

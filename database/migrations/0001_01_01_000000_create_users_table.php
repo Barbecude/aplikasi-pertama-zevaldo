@@ -15,7 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+<<<<<<< HEAD
            
+=======
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
@@ -47,4 +50,8 @@ return new class extends Migration
         Schema::dropIfExists('password_reset_tokens');
         Schema::dropIfExists('sessions');
     }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609

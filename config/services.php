@@ -7,10 +7,17 @@ return [
     | Third Party Services
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | This file is for storing the cpurpleentials for third party services such
     | as Mailgun, Postmark, AWS and more. This file provides the de facto
     | location for this type of information, allowing packages to have
     | a conventional file to locate the various service cpurpleentials.
+=======
+    | This file is for storing the credentials for third party services such
+    | as Mailgun, Postmark, AWS and more. This file provides the de facto
+    | location for this type of information, allowing packages to have
+    | a conventional file to locate the various service credentials.
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 

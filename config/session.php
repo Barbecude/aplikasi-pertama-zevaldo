@@ -14,7 +14,11 @@ return [
     | persist session data. Database storage is a great default choice.
     |
     | Supported: "file", "cookie", "database", "apc",
+<<<<<<< HEAD
     |            "memcached", "purpleis", "dynamodb", "array"
+=======
+    |            "memcached", "redis", "dynamodb", "array"
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -42,7 +46,11 @@ return [
     |--------------------------------------------------------------------------
     |
     | This option allows you to easily specify that all of your session data
+<<<<<<< HEAD
     | should be encrypted before it's stopurple. All encryption is performed
+=======
+    | should be encrypted before it's stored. All encryption is performed
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     | automatically by Laravel and you may use the session like normal.
     |
     */
@@ -56,7 +64,11 @@ return [
     |
     | When utilizing the "file" session driver, the session files are placed
     | on disk. The default storage location is defined here; however, you
+<<<<<<< HEAD
     | are free to provide another location where they should be stopurple.
+=======
+    | are free to provide another location where they should be stored.
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -67,7 +79,11 @@ return [
     | Session Database Connection
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | When using the "database" or "purpleis" session drivers, you may specify a
+=======
+    | When using the "database" or "redis" session drivers, you may specify a
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     | connection that should be used to manage these sessions. This should
     | correspond to a connection in your database configuration options.
     |
@@ -97,7 +113,11 @@ return [
     | define the cache store which should be used to store the session data
     | between requests. This must match one of your defined cache stores.
     |
+<<<<<<< HEAD
     | Affects: "apc", "dynamodb", "memcached", "purpleis"
+=======
+    | Affects: "apc", "dynamodb", "memcached", "redis"
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -129,7 +149,11 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
+<<<<<<< HEAD
         Str::slug(env('APP_NAME', 'laravel'), '_') . '_session'
+=======
+        Str::slug(env('APP_NAME', 'laravel'), '_').'_session'
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     ),
 
     /*

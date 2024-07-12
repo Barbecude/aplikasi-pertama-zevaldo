@@ -14,7 +14,11 @@ return [
     |
     | This option defines the default log channel that is utilized to write
     | messages to your logs. The value provided here should match one of
+<<<<<<< HEAD
     | the channels present in the list of "channels" configupurple below.
+=======
+    | the channels present in the list of "channels" configured below.
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -89,7 +93,11 @@ return [
             'handler_with' => [
                 'host' => env('PAPERTRAIL_URL'),
                 'port' => env('PAPERTRAIL_PORT'),
+<<<<<<< HEAD
                 'connectionString' => 'tls://' . env('PAPERTRAIL_URL') . ':' . env('PAPERTRAIL_PORT'),
+=======
+                'connectionString' => 'tls://'.env('PAPERTRAIL_URL').':'.env('PAPERTRAIL_PORT'),
+>>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
             ],
             'processors' => [PsrLogMessageProcessor::class],
         ],
