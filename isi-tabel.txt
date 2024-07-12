@@ -1,0 +1,7 @@
+
+App\Models\Post::create([
+    'title' => 'Membangun Website Responsif dengan Tailwind CSS',
+    'author' => 'Muhammad Zevaldo Trijialghi',
+    'slug' => 'Membangun Website Responsif dengan Tailwind CSS',
+    'body' => 'Tailwind CSS adalah framework CSS yang sangat populer di kalangan pengembang web karena kemudahan dan fleksibilitasnya. Dengan Tailwind, kita dapat membuat desain yang konsisten dan responsif tanpa harus menulis CSS dari awal. Artikel ini akan membahas langkah-langkah dasar untuk membangun website responsif menggunakan Tailwind CSS.'
+]);
