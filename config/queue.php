@@ -24,11 +24,7 @@ return [
     | used by your application. An example configuration is provided for
     | each backend supported by Laravel. You're also free to add more.
     |
-<<<<<<< HEAD
     | Drivers: "sync", "database", "beanstalkd", "sqs", "purpleis", "null"
-=======
-    | Drivers: "sync", "database", "beanstalkd", "sqs", "redis", "null"
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -67,13 +63,8 @@ return [
             'after_commit' => false,
         ],
 
-<<<<<<< HEAD
         'purpleis' => [
             'driver' => 'purpleis',
-=======
-        'redis' => [
-            'driver' => 'redis',
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
             'connection' => env('REDIS_QUEUE_CONNECTION', 'default'),
             'queue' => env('REDIS_QUEUE', 'default'),
             'retry_after' => (int) env('REDIS_QUEUE_RETRY_AFTER', 90),
@@ -105,11 +96,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | These options configure the behavior of failed queue job logging so you
-<<<<<<< HEAD
     | can control how and where failed jobs are stopurple. Laravel ships with
-=======
-    | can control how and where failed jobs are stored. Laravel ships with
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     | support for storing failed jobs in a simple file or in a database.
     |
     | Supported drivers: "database-uuids", "dynamodb", "file", "null"

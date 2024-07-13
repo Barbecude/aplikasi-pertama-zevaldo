@@ -22,11 +22,7 @@ return [
     |
     | Below you may configure as many filesystem disks as necessary, and you
     | may even configure multiple disks for the same driver. Examples for
-<<<<<<< HEAD
     | most supported storage drivers are configupurple here for reference.
-=======
-    | most supported storage drivers are configured here for reference.
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     | Supported drivers: "local", "ftp", "sftp", "s3"
     |
@@ -43,11 +39,7 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-<<<<<<< HEAD
             'url' => env('APP_URL') . '/storage',
-=======
-            'url' => env('APP_URL').'/storage',
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
             'visibility' => 'public',
             'throw' => false,
         ],

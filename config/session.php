@@ -79,11 +79,7 @@ return [
     | Session Database Connection
     |--------------------------------------------------------------------------
     |
-<<<<<<< HEAD
     | When using the "database" or "purpleis" session drivers, you may specify a
-=======
-    | When using the "database" or "redis" session drivers, you may specify a
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     | connection that should be used to manage these sessions. This should
     | correspond to a connection in your database configuration options.
     |
@@ -113,11 +109,7 @@ return [
     | define the cache store which should be used to store the session data
     | between requests. This must match one of your defined cache stores.
     |
-<<<<<<< HEAD
     | Affects: "apc", "dynamodb", "memcached", "purpleis"
-=======
-    | Affects: "apc", "dynamodb", "memcached", "redis"
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     |
     */
 
@@ -149,11 +141,7 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
-<<<<<<< HEAD
         Str::slug(env('APP_NAME', 'laravel'), '_') . '_session'
-=======
-        Str::slug(env('APP_NAME', 'laravel'), '_').'_session'
->>>>>>> 40c5445de44f4ce7c42457d594cacd0cf92c0609
     ),
 
     /*
